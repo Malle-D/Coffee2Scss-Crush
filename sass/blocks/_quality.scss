@@ -1,0 +1,44 @@
+.quality{
+   margin-bottom: 170px;
+}
+.quality__box{
+   position: relative;
+   z-index: 1;
+   display: flex;
+   background-color: #2C343E;
+   border-radius: 10px;
+   padding: 100px 0px 175px 85px;
+}
+.quality__info-site{
+   width: 540px;
+   margin-right: 125px;
+}
+.quality__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-top: 0px;
+   margin-bottom: 2rem;
+}
+.quality__description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   opacity: 0.8;
+   margin: 0px;
+}
+.quality__img{
+   width: 445px;
+   height: 474px;
+   position: absolute;
+   z-index: 2;
+   left: 740px;
+   bottom: 85px;
+   border-radius: 8px;
+}

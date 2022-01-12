@@ -1,0 +1,324 @@
+/* fraunces-regular - latin */
+@font-face {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+   url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+   font-family: 'Fraunces';
+   font-style: normal;
+   font-weight: 900;
+   src: local(''),
+   url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/fraunces-v10-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-regular - latin */
+@font-face {
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+   url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/barlow-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+   font-family: 'Barlow';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+   url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/barlow-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+   box-sizing: border-box;
+}
+img{
+   vertical-align: middle;
+}
+body{
+   margin: 0px;
+   background: #F2F2F2;
+   
+}
+.container{
+   width: 1340px;
+   padding: 0px 30px;
+   margin: 0px auto;
+}
+
+.header__inner{
+   padding: 45px 0px;
+   display: flex;
+   align-items: center;
+}
+.header__logo{
+   margin-right: auto;
+}
+.header__logo  :hover{
+   opacity: 0.8;
+}
+.header__nav-list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0px;
+   padding: 0;
+}
+.header__nav-items{
+   margin-left: 2rem;
+}
+.header__nav-links{
+   text-decoration: none;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: #83888F;
+}
+.header__nav-links:hover{
+   color: #333D4B;
+}
+.hero{
+   margin-bottom: 170px;
+}
+.hero__box{
+   background-image: url(../img/hero.png);
+   background-repeat: no-repeat;
+   padding: 137px 0px 137px 85px;
+   background-color: #A2A2A2;
+   border-radius: 10px;
+}
+.hero__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-top: 0px;
+   margin-bottom: 24px;
+}
+.hero__description-box{
+   width: 445px;
+}
+.hero__description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   margin: 0px;
+}
+
+.commit{
+   margin-bottom: 255px;
+}
+.commit__box{
+   display: flex;
+   align-items: center;
+   margin-left: 85px;
+}
+.commit__image{
+   width: 445px;
+   height: 520px;
+   margin-right: 125px;
+   border-radius: 8px;
+}
+.commit__info{
+   width: 540px;
+}
+.commit__title{
+   margin-top: 0px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #333D4B;
+   margin-bottom: 2rem;
+}
+.commit__paragraph{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   opacity: 0.8;
+}
+
+.quality{
+   margin-bottom: 170px;
+}
+.quality__box{
+   position: relative;
+   display: flex;
+   background-color: #2C343E;
+   border-radius: 10px;
+   padding: 100px 0px 175px 85px;
+}
+.quality__info-site{
+   width: 540px;
+   margin-right: 125px;
+}
+.quality__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-top: 0px;
+   margin-bottom: 2rem;
+}
+.quality__description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   opacity: 0.8;
+   margin: 0px;
+}
+.quality__img{
+   width: 445px;
+   height: 474px;
+   position: absolute;
+   z-index: 1;
+   left: 740px;
+   bottom: 85px;
+   border-radius: 8px;
+}
+
+.quarters{
+   margin-bottom: 170px;
+}
+.quarters__site{
+   padding-left: 85px;
+}
+.quarters__heading{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #83888F;
+   margin-top: 0px;
+   margin-bottom: 4rem;
+}
+.quarters__list{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+}
+.quarters__items:nth-child(2){
+   margin: 0px 95px 0px 108px;
+}
+.quarters__img-box{
+   width: 52px;
+   height: 52px;
+   margin-bottom: 45px;
+}
+.quarters__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+}
+.quarters__description{
+   font-family: "Barlow";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__box{
+   background-color: #2C343E;
+   display: flex;
+   align-items: center;
+   padding: 47px 85px;
+}
+.footer__logo:hover{
+   opacity: 0.8;
+}
+.footer__link-list{
+   display: flex;
+   list-style: none;
+   margin: 0px;
+   margin-left: 105px;
+   margin-right: auto;
+   padding: 0px;
+}
+.footer__link-items:nth-child(2){
+   margin: 0px 2rem;
+}
+.footer__links{
+   text-decoration: none;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: #83888F;
+}
+.footer__links:hover{
+   color:#FEFCF7;
+}
+.footer__network-list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+.network__items:nth-child(2){
+   margin: 0px 24px;
+}
+.network__img{
+   fill: #FFFFFF;
+   transition: fill 0.1s ease;
+}
+.network__img:hover{
+   fill: #FDD6BA;
+   transition: fill 0.1s ease;
+}

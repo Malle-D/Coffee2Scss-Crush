@@ -1,0 +1,32 @@
+.hero{
+   margin-bottom: 170px;
+}
+.hero__box{
+   background-image: url(../img/hero.png);
+   background-repeat: no-repeat;
+   padding: 137px 0px 137px 85px;
+   background-color: #A2A2A2;
+   border-radius: 10px;
+}
+.hero__title{
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-top: 0px;
+   margin-bottom: 24px;
+}
+.hero__description-box{
+   width: 445px;
+}
+.hero__description{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   margin: 0px;
+}

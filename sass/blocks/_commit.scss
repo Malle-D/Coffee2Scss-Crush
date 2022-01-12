@@ -1,0 +1,36 @@
+.commit{
+   margin-bottom: 255px;
+}
+.commit__box{
+   display: flex;
+   align-items: center;
+   margin-left: 85px;
+}
+.commit__image{
+   width: 445px;
+   height: 520px;
+   margin-right: 125px;
+   border-radius: 8px;
+}
+.commit__info{
+   width: 540px;
+}
+.commit__title{
+   margin-top: 0px;
+   font-family: "Fraunces";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #333D4B;
+   margin-bottom: 2rem;
+}
+.commit__paragraph{
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+   opacity: 0.8;
+}

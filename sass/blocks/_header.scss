@@ -1,0 +1,35 @@
+.header__inner{
+   padding: 45px 0px;
+   display: flex;
+   align-items: center;
+}
+.header__logo{
+   margin-right: auto;
+   &:hover{
+      opacity: 0.8;
+   }
+}
+.header__nav-list{
+   display: flex;
+   align-items: center;
+   list-style: none;
+   margin: 0px;
+   padding: 0;
+}
+.header__nav-items{
+   margin-left: 2rem;
+}
+.header__nav-links{
+   text-decoration: none;
+   font-family: "Barlow";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase;
+   color: #83888F;
+   &:hover{
+      color: #333D4B;
+   }
+}
