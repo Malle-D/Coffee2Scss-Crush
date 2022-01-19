@@ -30,3 +30,219 @@
    color: #FEFCF7;
    margin: 0px;
 }
+
+
+@media only screen and (max-width:1024px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -10px; 
+   }
+}
+@media only screen and (max-width:1014px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -20px; 
+   }
+}
+@media only screen and (max-width:1004px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -30px; 
+   }
+}
+@media only screen and (max-width:994px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -40px; 
+   }
+}
+@media only screen and (max-width:984px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -50px; 
+   }
+}
+@media only screen and (max-width:974px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -60px; 
+   }
+}
+@media only screen and (max-width:954px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -70px; 
+   }
+}
+@media only screen and (max-width:944px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -80px; 
+   }
+}
+@media only screen and (max-width:934px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -90px; 
+   }
+}
+@media only screen and (max-width:924px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -100px; 
+   }
+}
+@media only screen and (max-width:914px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -110px; 
+   }
+}
+@media only screen and (max-width:894px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -120px; 
+   }
+}
+@media only screen and (max-width:884px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -130px; 
+   }
+}
+@media only screen and (max-width:874px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -140px; 
+   }
+}
+@media only screen and (max-width:864px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -150px; 
+   }
+}
+@media only screen and (max-width:854px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -160px; 
+   }
+}
+@media only screen and (max-width:844px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -160px; 
+   }
+}
+@media only screen and (max-width:834px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -170px; 
+   }
+}
+@media only screen and (max-width:824px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -180px; 
+   }
+}
+@media only screen and (max-width:814px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -190px; 
+   }
+}
+@media only screen and (max-width:804px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -200px; 
+   }
+}
+@media only screen and (max-width:794px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -210px; 
+   }
+}
+@media only screen and (max-width:784px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -220px; 
+   }
+}
+@media only screen and (max-width:774px){
+   .hero__box{
+      background-image: url(../img/hero.png);
+      background-position: top 0px left -230px; 
+   }
+}
+@media only screen and (max-width:750px){
+   .hero__box{
+      background-image: url(../img/hero-tablet.png);
+      background-repeat: no-repeat;
+      // background-size: 100%;
+      padding: 118px 0px 118px 58px;
+      background-color: #A2A2A2;
+      border-radius: 10px;
+      background-position: top 0px;
+      background-position: right 0px;
+   }
+   .hero__title{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 40px;
+   }
+   .hero__description-box{
+      width: 400px;
+   }
+   .hero__description{
+      font-size: 15px;
+      line-height: 25px;
+   }
+}
+
+@media only screen and (max-width:590px){
+   .hero__box{
+      padding-right: 60px;
+   }
+   .hero__description-box{
+      width: 100%;
+      max-width: 400px;
+      margin-right: 60px;
+   }
+}
+
+@media only screen and (max-width:520px){
+   .hero__box{
+      // background-image: url(../img/hero-mobil.png);
+      background-repeat: no-repeat;
+      // background-size: contain;
+      background-position: calc(50%) right;
+      display: flex;
+      justify-content: center;
+      padding: 111px 0 87px;
+   }
+   .hero__description-box{
+      margin: 0px 24px;
+   }
+   .hero__box .hero__description-box{
+      width: 100%;
+      max-width: 280px;
+      text-align: center;
+   }
+   .hero__title{
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+   }
+   .hero__description{
+      font-size: 15px;
+      line-height: 25px;
+   }
+}
+@media only screen and (max-width:346px){
+   .hero__box{
+      padding-bottom: 62px;
+   }
+}
