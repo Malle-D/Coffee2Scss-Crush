@@ -213,7 +213,18 @@
    }
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (max-width:518px){
+   .hero__box{
+      padding-bottom: 93px;
+   }
+}
+@media only screen and (max-width:462px){
+   .hero__box{
+      padding-bottom: 68px;
+   }
+}
+
+@media only screen and (max-width:426px){
    .hero__box{
       // background-image: url(../img/hero-mobil.png);
       background-repeat: no-repeat;
