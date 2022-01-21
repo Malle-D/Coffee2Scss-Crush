@@ -1,11 +1,11 @@
 .footer{
-   margin-bottom: 88px;
+   margin-bottom: 88px;   
+   background-color: #2C343E;
 }
 .footer__box{
-   background-color: #2C343E;
    display: flex;
    align-items: center;
-   padding: 47px 85px;
+   padding: 47px 0px;
 }
 
 .footer__logo:hover{
@@ -61,5 +61,32 @@
    &:hover{
       fill: #FDD6BA;
       transition: fill 0.1s ease;
+   }
+}
+
+
+@media only screen and (max-width:905px){
+   .footer__link-list{
+      margin-left: auto;
+   }
+}
+@media only screen and (max-width:750px){
+   .footer__box{
+      flex-direction: column;
+   }
+   .footer__link-list{
+      margin: 35px auto;
+   }
+}
+@media only screen and (max-width:376px){
+   .footer__link-list{
+      margin: 35px auto;
+      flex-direction: column;
+   }
+   .footer__link-items{
+      text-align: center;
+   }
+   .footer__link-items:nth-child(2){
+      margin: 24px 0px;
    }
 }
