@@ -52,7 +52,6 @@
 
 /* Rotate first bar */
 .change .bar1 {
-   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
    transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
@@ -63,8 +62,7 @@
 
 /* Rotate last bar */
 .change .bar3 {
-   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-   transform: rotate(45deg) translate(-8px, -8px) ;
+   transform: rotate(45deg) translate(-10px, -7px) ;
 }
 
 
@@ -131,5 +129,15 @@
       margin: 8px 0;
       transition: 0.4s;
    }
+
+   .change .bar1 {
+      transform: rotate(-45deg) translate(-8.5px, 5px); ;
+   }
+   
+   /* Rotate last bar */
+   .change .bar3 {
+      transform: rotate(45deg) translate(-10px, -7px) ;
+   }
+   
 
 }
